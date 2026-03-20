@@ -1,7 +1,10 @@
 ☕ CafeCompass
 CafeCompass is a modern, feature-rich cafe finder application built with React and powered by the Google Maps Platform. Whether you're looking for a quick caffeine fix nearby or planning a coffee tour in a new city, CafeCompass helps you find the best spots with ease.
 
-CafeCompass Demo(Note: Add your own screenshot here!)
+CafeCompass Demo
+
+<img width="1913" height="943" alt="Screenshot 2026-03-20 234305" src="https://github.com/user-attachments/assets/847cf180-8d59-4c88-a05e-a8c0d73d3dc6" />
+
 
 ✨ Features
 🔍 Global Search: Find cafes in any city or country using the intuitive search bar with Google Autocomplete.
@@ -11,6 +14,7 @@ CafeCompass Demo(Note: Add your own screenshot here!)
 📸 Rich Details: View cafe photos, star ratings, user reviews, opening hours, and direct website links.
 📏 Real-time Distance: Automatically calculates how far each cafe is from your current GPS location.
 🗺️ Instant Directions: Get turn-by-turn navigation via Google Maps with a single click.
+
 🛠️ Tech Stack
 Frontend: React + Vite
 Maps: @react-google-maps/api
@@ -19,6 +23,7 @@ Google Maps JavaScript API
 Google Places API (New)
 Google Geocoding API
 Styling: Vanilla CSS with modern glassmorphism and responsive design.
+
 🚀 Getting Started
 Prerequisites
 A Google Cloud Project with an API Key.
