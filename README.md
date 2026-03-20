@@ -1,16 +1,58 @@
-# React + Vite
+☕ CafeCompass
+CafeCompass is a modern, feature-rich cafe finder application built with React and powered by the Google Maps Platform. Whether you're looking for a quick caffeine fix nearby or planning a coffee tour in a new city, CafeCompass helps you find the best spots with ease.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CafeCompass Demo(Note: Add your own screenshot here!)
 
-Currently, two official plugins are available:
+✨ Features
+🔍 Global Search: Find cafes in any city or country using the intuitive search bar with Google Autocomplete.
+📍 Nearby Discovery: One-click "Use Current Location" to find the best cafes in your immediate vicinity.
+🌙 Dark Mode: Sleek, eye-friendly dark theme for the map and interface, persisted across sessions.
+❤️ Favourites: Save your go-to spots to a personalized list for quick access later.
+📸 Rich Details: View cafe photos, star ratings, user reviews, opening hours, and direct website links.
+📏 Real-time Distance: Automatically calculates how far each cafe is from your current GPS location.
+🗺️ Instant Directions: Get turn-by-turn navigation via Google Maps with a single click.
+🛠️ Tech Stack
+Frontend: React + Vite
+Maps: @react-google-maps/api
+APIs:
+Google Maps JavaScript API
+Google Places API (New)
+Google Geocoding API
+Styling: Vanilla CSS with modern glassmorphism and responsive design.
+🚀 Getting Started
+Prerequisites
+A Google Cloud Project with an API Key.
+Enable the following APIs in your Google Console:
+Maps JavaScript API
+Places API (New)
+Geocoding API
+Installation
+Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+git clone https://github.com/Jascinta22/Cafe-Compass.git
+cd Cafe-Compass
+Install dependencies:
 
-## React Compiler
+bash
+npm install
+Set up environment variables: Create a .env file in the root directory and add your API key:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+env
+VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+Run the development server:
 
-## Expanding the ESLint configuration
+bash
+npm run dev
+Open the app: Navigate to http://localhost:5173 in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔒 Security
+The .env file is included in .gitignore to prevent sensitive API keys from being pushed to public repositories. Always keep your API keys restricted in the Google Cloud Console.
+
+📄 License
+This project is open-source and available under the 
+
+MIT License
+.
+
+Made with ☕ by Jascinta
